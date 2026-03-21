@@ -45,7 +45,7 @@ Introduce **Interruptive Authority**:
 > The retained human standing to suspend system operation,
 > independent of the system’s own evaluative structure.
 >
-> ## Minimal Design Requirement
+## Minimal Design Requirement
 >
 This defines the minimum conditions for preserving human interrupt authority. 
 >
