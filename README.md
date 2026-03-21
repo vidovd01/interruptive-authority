@@ -6,6 +6,11 @@ A structural approach to AI oversight beyond alignment.
 
 **Alignment is not control.**
 
+## Paper
+
+Read the full manuscript: 
+👉 [Interruptive Authority and the Limits of Alignment](paper/interruptive_authority.pdf
+
 ## Quick Links
 
 - 📄 [Paper](paper/interruptive_authority.pdf)
