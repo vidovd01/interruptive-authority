@@ -49,11 +49,13 @@ Introduce **Interruptive Authority**:
 >
 This defines the minimum conditions for preserving human interrupt authority. 
 >
-An interruption mechanism MUST satisfy the following properties:
+An interrupt mechanism MUST satisfy the following properties:
 
 - External: not derived from the system`s internal evaluation
 - Unconditional: not overridable by system otpimization
 - Immediate: capable of halting execution without negotiation
+
+A system that does not satisfy these conditions does not preserve interruptive authority.
 
 ## Why It Matters
 
