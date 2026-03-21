@@ -40,6 +40,29 @@ We call this **authorization collapse**.
 
 ## Solution
 
+## Diagram
+
+### Without Interruptive Authority
+
+        [ AI System ]
+              ↺
+     evaluates continuation
+              ↺
+     continues autonomously
+
+→ Authorization Collapse
+
+
+### With Interruptive Authority
+
+        [ Human ]
+            ↓
+    [ Interrupt Layer ]
+            ↓
+        [ AI System ]
+
+→ Controllability Preserved
+
 Introduce **Interruptive Authority**:
 
 > The retained human standing to suspend system operation,
