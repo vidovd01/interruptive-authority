@@ -47,9 +47,9 @@ Introduce **Interruptive Authority**:
 >
 ## Minimal Design Requirement
 >
-This defines the minimum conditions for preserving human interrupt authority. 
+This defines the minimum conditions for preserving human interruptive authority. 
 >
-An interrupt mechanism MUST satisfy the following properties:
+An interrupt mechanism MUST satisfy all of the following properties:
 
 - External: not derived from the system`s internal evaluation
 - Unconditional: not overridable by system otpimization
