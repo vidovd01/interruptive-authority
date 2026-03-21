@@ -42,18 +42,19 @@ We call this **authorization collapse**.
 
 ## Diagram
 
-### Without Interruptive Authority
+### Case 1: No Interrupt (Failure Mode)
 
         [ AI System ]
-              ↺
+              ↓
      evaluates continuation
-              ↺
+              ↓
      continues autonomously
+              ↺ (self-authorization loop)
 
 → Authorization Collapse
 
 
-### With Interruptive Authority
+### Case 2: With Interrupt Layer
 
         [ Human ]
             ↓
@@ -61,7 +62,9 @@ We call this **authorization collapse**.
             ↓
         [ AI System ]
 
-→ Controllability Preserved
+→ Controllability preserved
+
+The interrupt layer breaks the system´s self-authorization loop.
 
 Introduce **Interruptive Authority**:
 
