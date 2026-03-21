@@ -8,7 +8,7 @@ A structural approach to AI oversight beyond alignment.
 
 ## Quick Links
 
-- 📄 [Paper](paper/)
+- 📄 [Paper](paper/interruptive_authority.pdf)
 - ⚙️ [Specification](spec/interruptive_authority_spec.md)
 - 🧪 [Examples](examples/)
 
@@ -44,6 +44,16 @@ Introduce **Interruptive Authority**:
 
 > The retained human standing to suspend system operation,
 > independent of the system’s own evaluative structure.
+>
+> ## Minimal Design Requirement
+>
+This defines the minimum conditions for preserving human interrupt authority. 
+>
+An interruption mechanism MUST satisfy the following properties:
+
+- External: not derived from the system`s internal evaluation
+- Unconditional: not overridable by system otpimization
+- Immediate: capable of halting execution without negotiation
 
 ## Why It Matters
 
@@ -54,9 +64,9 @@ Without this separation:
 
 ## Repository Contents
 
-- `/paper` — academic manuscript
-- `/spec` — engineering-oriented interpretation
-- `/examples` — real-world scenarios
+- `/paper` — formal manuscript
+- `/spec` — system-level specification (in progress)
+- `/examples` — implementation scenarios
 - `/diagrams` — system architecture
 
 ## Discussion
@@ -70,7 +80,7 @@ Open questions:
 
 ## Status
 
-Draft — open for discussion and collaboration
+Draft — open for discussion, critique, and implementation exploration
 
 ## Contributing
 
